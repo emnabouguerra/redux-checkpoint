@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 200px;
+  gap: 50px;
+  background-color: #61dafb;
+  padding: 40px;
+}
+
+.header input,button{
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.header input{
+  width: 60vw;
+}
+.done{
+  background-color: violet;
+}
+
+.notdone{
+  background-color: #61dafb;
+}
+
+
+.tasklist{
+  margin-inline: auto;
+  margin-top: 20px;
+}
+
+.task{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
